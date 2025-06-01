@@ -1,1 +1,1 @@
-Тест: [← На головну](index.html)
+[Test]([index.html](https://lagovska.github.io/LR-2/))
