@@ -15,7 +15,8 @@
 - Відомий алгоритм — **RSA**, використовується в банківських системах, месенджерах, електронних підписах.
 
 
-![LR-2](../resources/videos/videoplayback.mp4)
+[Дивіться видео на YouTube про Кібернетичну безпеку]([https://www.youtube.com/watch?v=ВАШ_ID](https://www.youtube.com/watch?v=crI4ZXZuwrk))
+
 ---
 
 ## Хешування
