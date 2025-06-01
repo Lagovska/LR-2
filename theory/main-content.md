@@ -23,5 +23,7 @@
 
 **Приклад хешу** слова “Криптографія” (SHA-256):  
 `33fd70ec33eeb5b7e93e84debf8d86fc...`
+
+
 ![LR-2](../resources/images/3.jpg)
 
