@@ -1,1 +1,139 @@
+/* Загальні стилі */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f7;
+  padding: 30px;
+  color: #2c3e50;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Заголовок */
+h1 {
+  color: #34495e;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Блок питання */
+.question {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+  transition: box-shadow 0.3s ease;
+}
+.question:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+/* Текст питання */
+.question p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Відповіді */
+label {
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  border: 1.5px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+label:hover {
+  background-color: #d6eaff;
+  border-color: #3399ff;
+}
+
+/* Кнопки radio і checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #007bff;
+  cursor: pointer;
+  transform: scale(1.2);
+  vertical-align: middle;
+}
+
+/* Текстові і числові поля */
+input[type="text"],
+input[type="number"] {
+  padding: 10px 12px;
+  width: 100%;
+  max-width: 320px;
+  font-size: 1rem;
+  border: 2px solid #ccd6f6;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  outline-offset: 2px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #f0f7ff;
+}
+
+/* Результати відповідей */
+.result {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  min-height: 22px;
+  user-select: none;
+}
+
+/* Кнопка */
+button[type="submit"] {
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 36px;
+  font-size: 1.15rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  user-select: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  box-shadow: 0 8px 18px rgba(0, 86, 179, 0.6);
+}
+
+/* Адаптивність */
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+  .question {
+    padding: 20px 15px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    max-width: 100%;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 14px 0;
+  }
+}
 
